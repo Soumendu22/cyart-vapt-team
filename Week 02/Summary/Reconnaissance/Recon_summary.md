@@ -1,0 +1,2 @@
+# 🔍 Reconnaissance Summary
+The reconnaissance phase revealed the target’s domain structure, associated subdomains, exposed services, and technology stack using Maltego and Shodan. Asset mapping identified externally reachable services, potential development endpoints, and outdated server components. All findings were documented using standardized templates to prepare for deeper vulnerability analysis in subsequent testing phases.

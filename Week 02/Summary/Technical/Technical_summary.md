@@ -1,0 +1,10 @@
+# 🔹 Technical Summary (Full VAPT Cycle – 250 Words)
+
+The engagement followed a structured VAPT workflow incorporating reconnaissance, vulnerability assessment, exploitation, and reporting. Reconnaissance was conducted using Shodan, Maltego, and subdomain enumeration tools to map target assets, identify exposed services, detect outdated technologies, and gather relevant OSINT data. This established a clear understanding of the external attack surface.
+
+During the vulnerability scanning phase, Nmap, Nikto, and OpenVAS were used to enumerate active services, detect web misconfigurations, identify outdated software versions, and gather CVSS-based risk information. Findings included SQL Injection vectors, public-facing SMB ports, outdated Apache configurations, and weak credential exposures. All findings were documented using tracking tables and Google Docs templates to support repeatability and prioritization.
+
+Exploitation was performed using Metasploit, Burp Suite, and sqlmap. Remote Code Execution (RCE) was achieved on Apache Tomcat Manager using Metasploit’s WAR file deployment exploit. SQL Injection exploitation with sqlmap allowed full database enumeration and credential extraction on DVWA. Burp Suite validated input manipulation impacts and confirmed missing server-side filtering. Post-exploitation activities demonstrated privilege escalation opportunities and system enumeration capabilities.
+
+The capstone phase used PTES methodology to run an end-to-end pentest, combining scanning outputs with exploitation results. OpenVAS provided deeper coverage of misconfigurations and XSS vulnerabilities. Remediation recommendations included implementing parameterized queries, enforcing input sanitization, disabling unnecessary services, improving SSL configuration, and conducting follow-up rescans.
+Overall, the engagement verified multiple exploitable weaknesses, validated them with PoCs, and delivered a comprehensive remediation roadmap.
