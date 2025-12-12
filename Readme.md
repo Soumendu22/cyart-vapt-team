@@ -11,19 +11,47 @@ The repository includes structured reports for each week, covering real-world se
 # 📂 **Repository Structure**
 
 ```
-cyart-vapt-team/
+CYART-VAPT-TEAM/
 │
-├── Week-01/
-│   ├── Week_01.md
-│   ├── Week01_VAPT_Report.pdf
+├── Week_01/
+│   ├── VAPT_Report_Week_01.pdf
+│   └── Week_01.md
 │
-├── Week-02/
-│   ├── Week_02.md
-│   ├── Week02_VAPT_Report.pdf
+├── Week_02/
+│   ├── Reports/
+│   │   ├── Capstone_VAPT/
+│   │   │   └── Capstone_VAPT.pdf
+│   │   │
+│   │   ├── Exploitation_and_Post_Exploitation/
+│   │   │   └── Exploitation_&_Post_Exploitation.pdf
+│   │   │
+│   │   ├── Reconnaissance/
+│   │   │   └── Reconnaissance.pdf
+│   │   │
+│   │   └── Vulnerability_Scanning/
+│   │       ├── Email.md
+│   │       └── Vulnerability_Scanning.pdf
+│   │
+│   ├── Screenshots/
+│   │   └── (All screenshots used for evidence)
+│   │
 │   ├── Summary/
+│   │   ├── Exploitation/
+│   │   │   └── summary.md
+│   │   │
+│   │   ├── Non_Technical/
+│   │   │   └── Non_technical_summary.md
+│   │   │
+│   │   ├── Reconnaissance/
+│   │   │   └── Recon_summary.md
+│   │   │
+│   │   └── Technical/
+│   │       └── Technical_summary.md
+│   │
+│   ├── VAPT_Report_Week_02.pdf
+│   └── Week_02.md
 │
-│
-└── README.md   ← (You are here)
+└── Readme.md
 ```
 
 ---
@@ -198,14 +226,6 @@ You may use this repository to:
 * Build your own portfolio
 * Prepare for cybersecurity interviews
 * Reference open-source security tools
-
----
-
-# 📬 **Contact**
-
-For internship-related queries or project clarifications:
-📧 [inquiry@cyart.io](mailto:inquiry@cyart.io)
-🌐 [https://www.cyart.io](https://www.cyart.io)
 
 ---
 
