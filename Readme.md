@@ -51,6 +51,30 @@ CYART-VAPT-TEAM/
 │   ├── VAPT_Report_Week_02.pdf
 │   └── Week_02.md
 │
+├── Week_03/
+│   ├── Reports/
+│   │   ├── Advanced_Exploitation/
+│   │   │   └── Email.md
+│   │   │
+│   │   ├── Capstone_VAPT/
+│   │   │   ├── Non_Technical_Summary.md
+│   │   │   └── PTES.md
+│   │   │
+│   │   ├── Post-Exploitation_and_Evidence_Collection/
+│   │   │   └── Evidence_Summary.md
+│   │   │
+│   │   ├── Reporting_Practice/
+│   │   │   └── Non_Technical_Summary.md
+│   │   │
+│   │   └── Web_Application_Testing/
+│   │       └── Summary.md
+│   │
+│   ├── Screenshots/
+│   │   └── (All screenshots used for evidence)
+│   │
+│   ├── Task_Outline.md
+│   └── Week_03.md
+│
 └── Readme.md
 ```
 
@@ -139,6 +163,37 @@ Below is an overview of what each week contains.
 * Insecure design patterns
 
 👉 Detailed report: **Week-02/README.md**
+
+---
+
+# 🟣 **Week 03 – Advanced Exploitation & Professional Reporting**
+
+### **Topics Covered**
+
+* Advanced vulnerability exploitation techniques
+* Exploit chains and customization
+* Web application penetration testing (OWASP Top 10)
+* Post-exploitation and evidence collection
+* Professional reporting and stakeholder communication
+
+### **Key Activities**
+
+* Chaining exploits (XSS to RCE)
+* Customizing PoCs from Exploit-DB
+* DVWA testing with Burp Suite & sqlmap
+* Privilege escalation techniques
+* Evidence collection and chain-of-custody
+* PTES report creation
+
+### **Major Focus Areas**
+
+* Exploit customization and obfuscation
+* Manual web application testing
+* Technical and non-technical reporting
+* Stakeholder communication
+* Full VAPT cycle simulation
+
+👉 Detailed outline: **Week-03/Task_Outline.md**
 
 ---
 
