@@ -133,7 +133,7 @@ Below is an overview of what each week contains.
 * Weak encryption
 * Authentication failures
 
-👉 Detailed report: **Week-01/README.md**
+👉 Detailed report: **Week-01/Week_01.md**
 
 ---
 
@@ -162,7 +162,7 @@ Below is an overview of what each week contains.
 * Weak session management
 * Insecure design patterns
 
-👉 Detailed report: **Week-02/README.md**
+👉 Detailed report: **Week-02/Week_02.md**
 
 ---
 
