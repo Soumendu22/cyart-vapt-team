@@ -1,0 +1,3 @@
+## Non-Technical Management Summary
+
+The penetration testing exercise identified multiple security weaknesses that could allow attackers to gain unauthorized access to the application and underlying systems. A critical SQL Injection vulnerability enables attackers to bypass authentication and access sensitive data, while weak password controls increase the risk of account compromise. If exploited, these issues could result in data breaches, service disruption, and reputational damage. Immediate remediation is recommended, including secure input handling and stronger authentication policies. Addressing these risks will significantly improve the organization’s security posture and reduce the likelihood of real-world attacks.

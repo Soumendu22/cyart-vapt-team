@@ -1,0 +1,3 @@
+## Non-Technical Management Summary
+
+The security assessment identified a critical weakness in the web application that allows attackers to take full control of the server. This vulnerability exists due to outdated software and can be exploited remotely without authentication. If left unpatched, it could lead to data breaches, service disruption, and reputational damage. Immediate software updates, improved patch management, and regular security testing are recommended. Addressing these issues will significantly reduce organizational risk and strengthen the overall security posture.

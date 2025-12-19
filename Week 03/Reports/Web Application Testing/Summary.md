@@ -1,0 +1,3 @@
+## Web Application Test Summary 
+
+The DVWA web application hosted at 10.49.187.84 was tested for OWASP Top 10 vulnerabilities using manual and automated techniques. Critical SQL Injection and medium-severity reflected XSS vulnerabilities were identified and successfully exploited, highlighting weak input validation, insecure authentication logic, and improper output encoding within the application.
