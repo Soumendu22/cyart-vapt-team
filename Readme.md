@@ -193,7 +193,7 @@ Below is an overview of what each week contains.
 * Stakeholder communication
 * Full VAPT cycle simulation
 
-👉 Detailed outline: **Week-03/Task_Outline.md**
+👉 Detailed outline: **Week-03/Week_03.md**
 
 ---
 
