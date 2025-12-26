@@ -75,6 +75,41 @@ CYART-VAPT-TEAM/
 │   ├── Task_Outline.md
 │   └── Week_03.md
 │
+├── Week_04/
+│   ├── Reports/
+│   │   ├── Advanced_Exploitation_Lab/
+│   │   │
+│   │   ├── API_Security_Testing/
+│   │   │
+│   │   ├── Capstone_VAPT/
+│   │   │
+│   │   ├── Mobile_Application_Testing/
+│   │   │   └── Mobile_Application_Testing.md
+│   │   │
+│   │   ├── Network_Protocol/
+│   │   │
+│   │   └── Privilege_Escalation/
+│   │
+│   ├── Screenshots/
+│   │   └── (All screenshots used for evidence)
+│   │
+│   ├── Summary/
+│   │   ├── Non_Technical_Summary.md
+│   │   │
+│   │   ├── API_Testing/
+│   │   │   └── API_Summary.md
+│   │   │
+│   │   ├── Mobile_Application_Testing/
+│   │   │   └── Mobile_Application_Testing_Summary.md
+│   │   │
+│   │   ├── Network_Protocol/
+│   │   │   └── Network_Protocol_Summary.md
+│   │   │
+│   │   └── Privilege_Escalation/
+│   │       └── Privilege_Escalation_Summary.md
+│   │
+│   └── Week_04.md
+│
 └── Readme.md
 ```
 
@@ -197,6 +232,52 @@ Below is an overview of what each week contains.
 
 ---
 
+# 🔴 **Week 04 – Advanced Exploitation & Comprehensive Security Testing**
+
+### **Topics Covered**
+
+* Advanced exploitation techniques (exploit chaining, custom PoCs)
+* API security testing (OWASP API Top 10)
+* Privilege escalation and persistence mechanisms
+* Network protocol attacks (SMB relay, MitM)
+* Mobile application penetration testing (OWASP Mobile Top 10)
+* Comprehensive VAPT reporting and remediation strategies
+
+### **Key Activities**
+
+* Multi-stage exploit chains (XSS to RCE)
+* Custom exploit development and defense evasion (ROP, ASLR bypass)
+* API testing with Burp Suite and Postman
+* Privilege escalation using LinPEAS/WinPEAS
+* SMB relay attacks and ARP spoofing
+* Mobile app analysis with MobSF and Frida
+* Full VAPT engagement simulation
+
+### **Major Focus Areas**
+
+* Exploit chaining and customization
+* API vulnerability exploitation (BOLA, GraphQL injection)
+* Advanced privilege escalation (SUID, kernel exploits)
+* Network protocol exploitation
+* Mobile security assessment (static and dynamic analysis)
+* Professional PTES reporting for technical and non-technical audiences
+
+### **Tools Introduced**
+
+* Ghidra (reverse engineering)
+* Postman (API testing)
+* LinPEAS/WinPEAS (privilege escalation)
+* PowerSploit (Windows exploitation)
+* Responder (NTLM credential harvesting)
+* Ettercap (MitM attacks)
+* MobSF (mobile security framework)
+* Frida (dynamic instrumentation)
+* Drozer (Android security)
+
+👉 Detailed outline: **Week-04/Week_04.md**
+
+---
+
 # 🧰 **Tools Used Across All Weeks**
 
 ### **Network & Port Scanning**
@@ -212,20 +293,44 @@ Below is an overview of what each week contains.
 
 * Burp Suite Community
 * OWASP ZAP
+* Postman (API testing)
 
 ### **Exploitation Frameworks**
 
 * Metasploit
 * SQLMap
+* Python (custom exploit development)
 
 ### **Analysis & Monitoring**
 
 * Wireshark
 
+### **Privilege Escalation**
+
+* LinPEAS
+* WinPEAS
+* PowerSploit
+
+### **Network Protocol Attacks**
+
+* Responder
+* Ettercap
+
+### **Mobile Application Testing**
+
+* MobSF (Mobile Security Framework)
+* Frida
+* Drozer
+
+### **Reverse Engineering**
+
+* Ghidra
+
 ### **Documentation**
 
 * Dradis CE
 * CherryTree
+* Google Docs
 
 ---
 
@@ -233,12 +338,20 @@ Below is an overview of what each week contains.
 
 * NIST Cybersecurity Framework
 * VAPT Methodology (Recon → Scan → Enumeration → Exploitation → Reporting)
-* OWASP Top 10
+* OWASP Top 10 (Web Applications)
+* OWASP API Top 10
+* OWASP Mobile Top 10
 * Risk Assessment & CVSS Scoring
 * Compliance frameworks (GDPR, HIPAA, ISO 27001, CIS Benchmarks)
 * Secure configuration principles
 * Patch & vulnerability management lifecycle
 * Defense-in-depth security model
+* Advanced exploitation techniques (exploit chaining, ROP, ASLR bypass)
+* Network protocol attacks (SMB relay, MitM, ARP spoofing)
+* Privilege escalation and persistence mechanisms
+* Mobile application security (static and dynamic analysis)
+* API security testing methodologies
+* PTES (Penetration Testing Execution Standard)
 
 ---
 
@@ -251,6 +364,14 @@ Below is an overview of what each week contains.
 5. Continuous monitoring is essential
 6. Authentication & encryption remain common failure points
 7. Misconfigurations are the #1 root cause of vulnerabilities
+8. Exploit chaining enables complex multi-stage attacks
+9. API security is critical in modern application architectures
+10. Mobile applications present unique security challenges
+11. Network protocol vulnerabilities persist in legacy systems
+12. Effective communication bridges technical and business stakeholders
+13. Privilege escalation and persistence are key to maintaining access
+14. Defense evasion techniques (ROP, polymorphic payloads) bypass modern protections
+15. Professional reporting requires tailoring content to diverse audiences
 
 ---
 
